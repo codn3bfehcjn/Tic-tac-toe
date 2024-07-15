@@ -15,7 +15,6 @@ let winconditions = [
 ];
 
 cubes.forEach(button =>{
-    button.classList.remove("disabled")
    btn.addEventListener("click",()=>{
     button.innerHTML = ""
    })
